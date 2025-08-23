@@ -27,6 +27,11 @@ public class Test2 {
 
     }
 
+    @Test
+    public void test1(){
+        //newtest method
+    }
+
     @AfterClass
     public void aftermethod(){
         driver.quit();
