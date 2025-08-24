@@ -49,7 +49,8 @@ public class NewTest {
         Select select1 = new Select(el1);
         select1.selectByVisibleText("Agra");
 
-        driver.findElement(By.xpath("//input[@value='Login']")).click();;
+        driver.findElement(By.xpath("//input[@value='Login']")).click();
+        
     }
 
     @AfterClass
